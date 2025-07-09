@@ -1,4 +1,4 @@
-package com.atguigu.lease.config;
+package com.atguigu.lease.common.mybatisplusconfig;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
