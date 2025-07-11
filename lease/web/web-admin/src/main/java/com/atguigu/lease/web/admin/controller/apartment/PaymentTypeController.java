@@ -1,6 +1,5 @@
 package com.atguigu.lease.web.admin.controller.apartment;
 
-
 import com.atguigu.lease.common.result.Result;
 import com.atguigu.lease.model.entity.PaymentType;
 import com.atguigu.lease.web.admin.service.PaymentTypeService;
@@ -8,7 +7,6 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 

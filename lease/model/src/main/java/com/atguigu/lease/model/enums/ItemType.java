@@ -10,7 +10,6 @@ public enum ItemType implements BaseEnum {
 
     ROOM(2, "房间");
 
-
     @EnumValue
     @JsonValue
     private Integer code;
