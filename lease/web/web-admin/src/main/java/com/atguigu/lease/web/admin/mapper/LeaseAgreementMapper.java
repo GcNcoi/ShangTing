@@ -5,6 +5,8 @@ import com.atguigu.lease.web.admin.vo.agreement.AgreementQueryVo;
 import com.atguigu.lease.web.admin.vo.agreement.AgreementVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
 * @author liubo
@@ -12,8 +14,10 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 * @createDate 2023-07-24 15:48:00
 * @Entity com.atguigu.lease.model.LeaseAgreement
 */
+@Mapper
 public interface LeaseAgreementMapper extends BaseMapper<LeaseAgreement> {
 
+    IPage<AgreementVo> pageAgreementByQuery(Page<AgreementVo> page, AgreementQueryVo queryVo);
 }
 
 

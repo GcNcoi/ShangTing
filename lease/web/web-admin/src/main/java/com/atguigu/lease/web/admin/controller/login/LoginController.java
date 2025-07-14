@@ -1,6 +1,5 @@
 package com.atguigu.lease.web.admin.controller.login;
 
-
 import com.atguigu.lease.common.result.Result;
 import com.atguigu.lease.web.admin.vo.login.CaptchaVo;
 import com.atguigu.lease.web.admin.vo.login.LoginVo;
