@@ -1,0 +1,2 @@
+lease为后端管理，通过idea打开
+rentHouseAdmin和rentHouseH5分别为后台管理页面PC端和移动端，通过VSCode打开
