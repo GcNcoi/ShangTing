@@ -19,7 +19,7 @@ import java.util.Date;
  */
 public class JwtUtil {
 
-    private static long tokenExpiration = 60 * 60 * 1000 * 24 * 365L;
+    private static long tokenExpiration = 60 * 60 * 1000L;
 
     private static SecretKey tokenSignKey = Keys.hmacShaKeyFor("fLYaYYBrn2fjPIMBNPapUfmUkZLAPdUm".getBytes());
 
